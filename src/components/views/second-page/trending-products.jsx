@@ -48,6 +48,7 @@ const TrendingProducts = () => {
           </Grid>
           <Grid item xs={12} md={4} className="text-center mt-3">
             <Link
+              target="_blank"
               href="https://www.amazon.com/deals"
               className="check-now-btn"
               size="small"
@@ -100,6 +101,7 @@ const TrendingProducts = () => {
                   Lorem ipsum dolor sit amet,
                 </Typography>
                 <Link
+                  target="_blank"
                   href="https://www.amazon.com/deals?ref_=nav_cs_gb&discounts-widget=%2522%257B%255C%2522state%255C%2522%253A%257B%255C%2522refinementFilters%255C%2522%253A%257B%255C%2522percentOff%255C%2522%253A%255B%255C%25221%255C%2522%255D%257D%257D%252C%255C%2522version%255C%2522%253A1%257D%2522"
                   sx={{
                     background: "transparent",
@@ -136,6 +138,7 @@ const TrendingProducts = () => {
                       Lorem ipsum dolor sit amet,
                     </Typography>
                     <Link
+                      target="_blank"
                       href="https://www.amazon.com/deals?ref_=nav_cs_gb&discounts-widget=%2522%257B%255C%2522state%255C%2522%253A%257B%255C%2522refinementFilters%255C%2522%253A%257B%255C%2522percentOff%255C%2522%253A%255B%255C%25222%255C%2522%255D%257D%257D%252C%255C%2522version%255C%2522%253A1%257D%2522"
                       sx={{
                         background: "transparent",
@@ -184,6 +187,7 @@ const TrendingProducts = () => {
                       Lorem ipsum dolor sit amet,
                     </Typography>
                     <Link
+                      target="_blank"
                       href="https://www.amazon.com/deals?ref_=nav_cs_gb&discounts-widget=%2522%257B%255C%2522state%255C%2522%253A%257B%255C%2522refinementFilters%255C%2522%253A%257B%255C%2522percentOff%255C%2522%253A%255B%255C%25223%255C%2522%255D%257D%257D%252C%255C%2522version%255C%2522%253A1%257D%2522"
                       sx={{
                         background: "transparent",
@@ -220,6 +224,7 @@ const TrendingProducts = () => {
                       Lorem ipsum dolor sit amet,
                     </Typography>
                     <Link
+                      target="_blank"
                       href="https://www.amazon.com/deals?ref_=nav_cs_gb&discounts-widget=%2522%257B%255C%2522state%255C%2522%253A%257B%255C%2522refinementFilters%255C%2522%253A%257B%255C%2522percentOff%255C%2522%253A%255B%255C%25224%255C%2522%255D%257D%257D%252C%255C%2522version%255C%2522%253A1%257D%2522"
                       sx={{
                         background: "transparent",

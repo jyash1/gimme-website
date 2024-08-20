@@ -10,7 +10,7 @@ import { renderStars } from "services/utiles";
 const SwiperComponent = ({ slidesData }) => {
   return (
     <Swiper
-      style={{ padding: "40px" }}
+      style={{ padding: "45px" }}
       slidesPerView={4}
       spaceBetween={50}
       breakpoints={{
@@ -71,7 +71,7 @@ const SwiperComponent = ({ slidesData }) => {
               </Box>
               <Box className="mt-4">
                 <Link
-                  href={`/web/product-details/${slide.ProductName.split(' ')[0].toLowerCase()}-${slide.id}`}
+                  href={`/web/product-details/${slide.id}`}
                   className="card-link"
                 >
                   View Product

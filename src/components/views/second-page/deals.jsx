@@ -29,7 +29,7 @@ const Deals = () => {
 
   return (
     <>
-      <Container className="mt-5">
+      <Container className="mt-5" id="target-section">
         <Typography variant="h3" sx={{ color: "#000", fontWeight: 700, mb: 2 }}>
           Deals For The Day
         </Typography>

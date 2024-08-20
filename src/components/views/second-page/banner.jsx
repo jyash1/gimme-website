@@ -3,6 +3,12 @@ import React from "react";
 import imageurl from "services/images";
 
 const SecondPageBanner = () => {
+  const handleScroll = () => {
+    const element = document.getElementById("target-section");
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth" });
+    }
+  };
   return (
     <>
       <Box sx={{ paddingY: 1 }}>
@@ -47,6 +53,7 @@ const SecondPageBanner = () => {
                   Lorem ipsum dolor sit amet,
                 </Typography>
                 <Button
+                  onClick={handleScroll}
                   className="explore-btn"
                   disableRipple={true}
                   size="small"
